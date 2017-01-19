@@ -8,7 +8,5 @@ var stringify = function (params) {
   }
 };
 
-StringifyHelper = Ember.Helper.helper(stringify);
-
 export { stringify };
-export default StringifyHelper;
+export default Ember.Helper.helper(stringify);
